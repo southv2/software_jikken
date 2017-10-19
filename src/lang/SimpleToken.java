@@ -5,6 +5,7 @@ public class SimpleToken extends Token {
 	public static final int TK_NUM			= 1;	// 数値
 	public static final int TK_EOF			= -1;	// （ファイルの終端記号）
 	public static final int TK_ILL			= -2;	// 未定義トークン
+	public static final int TK_TEST 			= -3;
 
 	private int    type;				// 上のどのトークンか
 	private String text;				// 切り出したトークンの綴り
